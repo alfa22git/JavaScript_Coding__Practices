@@ -61,3 +61,21 @@ if(a==b){
 }
 
 //----------------------------------------//
+
+
+var fruits = ['Appale', 'Banana', 'Orange'];
+
+var indexNumber = fruits.indexOf('Banana');
+console.log(indexNumber);   // 1
+fruits[1] = 'Mango';
+console.log(fruits);  //  [ 'Appale', 'Mango', 'Orange' ]
+
+fruits.pop();
+console.log(fruits);        //  [ 'Appale', 'Mango' ]
+
+fruits.push('Watermelon');
+console.log(fruits);        //  [ 'Appale', 'Mango', 'Watermelon' ]
+
+
+//--------------------------------
+
